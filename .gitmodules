@@ -2,10 +2,10 @@
 	path = modules/lcphp
 	url = https://github.com/rbayliss/puppet-lcphp/
 [submodule "modules/puppetlabs-vcsrepo"]
-	path = modules/puppetlabs-vcsrepo
+	path = modules/vcsrepo
 	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
 [submodule "modules/puppetlabs-stdlib"]
-	path = modules/puppetlabs-stdlib
+	path = modules/stdlib
 	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
 [submodule "modules/socat"]
 	path = modules/socat
@@ -14,5 +14,20 @@
 	path = modules/apache
 	url = https://github.com/puppetlabs/puppetlabs-apache.git
 [submodule "puppetlabs-apt"]
-	path = puppetlabs-apt
+	path = modules/apt
 	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "modules/composer"]
+	path = modules/composer
+	url = https://github.com/tPl0ch/puppet-composer.git
+[submodule "modules/php"]
+	path = modules/php
+	url = https://github.com/example42/puppet-php.git
+[submodule "modules/concat"]
+	path = modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "modules/puppi"]
+	path = modules/puppi
+	url = https://github.com/example42/puppi.git
+[submodule "modules/git"]
+	path = modules/git
+	url = https://github.com/puppetlabs/puppetlabs-git.git
