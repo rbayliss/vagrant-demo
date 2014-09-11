@@ -7,3 +7,12 @@
 [submodule "modules/puppetlabs-stdlib"]
 	path = modules/puppetlabs-stdlib
 	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "modules/socat"]
+	path = modules/socat
+	url = https://github.com/rbayliss/puppet-socat/
+[submodule "modules/puppetlabs-apache"]
+	path = modules/apache
+	url = https://github.com/puppetlabs/puppetlabs-apache.git
+[submodule "puppetlabs-apt"]
+	path = puppetlabs-apt
+	url = https://github.com/puppetlabs/puppetlabs-apt.git
