@@ -10,6 +10,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "rbayliss/debian-wheezy"
 
   # Make this machine accessible to the host at 192.168.33.55
-  #config.vm.network "private_network", ip: "192.168.33.55"
+  config.vm.network "private_network", ip: "192.168.33.55"
+
+  # Share a single folder from the host to the guest.
+  config.vm.synced_folder "../share", "/var/www"
 
 end
